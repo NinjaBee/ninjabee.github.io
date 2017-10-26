@@ -1,0 +1,85 @@
+/*body {
+  background:linear-gradient(left,blue,green);
+}*/
+
+.body {
+  display: flex;
+}
+
+h1 {
+  color:#5569aa;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0;
+  align-items: center;
+}
+
+h3 {
+  color:darkgray;
+  font:times;
+}
+
+
+body {
+  /*background-image: url("https://lighthousecasualty.com/wp-content/uploads/2011/09/lh_beam2.jpg");*/
+  background-color:lightblue;
+}
+
+blockquote {
+  dispay: flex;
+  animation-name: nameofanimation;
+  animation-duration: 20s;
+  animation-timing-function: ease;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  width:auto;
+  font-kerning: auto;
+  justify-content: center;
+}
+
+@keyframes nameofanimation {
+  0% {
+    color: purple;
+  }
+  33% {
+    color: white;
+  }
+  80% {
+    color: blue;
+  }
+  100% {
+    color: white;
+  }
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url('assets/IMG_0143.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second_image {
+  /* The image used */
+  background-image: url('assets/IMG_0061.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
