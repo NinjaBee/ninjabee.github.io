@@ -1,0 +1,49 @@
+body {
+	height:100vh;
+}
+
+div div {
+  position: absolute;
+	width:100px;
+	height:100px;
+	background: #465C69;
+	border-radius:50%;
+}
+
+nav {
+  position: fixed;
+	border-bottom:solid;
+	background:#333;
+}
+
+nav > div {
+  Position: relative;
+	height:120px;
+}
+
+h1{
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  display: block;
+}
+
+nav {
+	width:100%;
+}
+
+ul {
+	border-right: solid;
+	width: 100px;
+	height: 100%;
+	padding: 10px 0;
+	margin-top: 120px;
+}
+
+ul li:hover {
+	color: #465C69;
+}
+
+img {
+	width:500px;
+}
